@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dispositivos IoT</title>
+    <style>
+        button a {
+            text-decoration: none;
+            color: white;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #015958;
+        }
+
+        header {
+            background-color: #023535;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        section,
+        aside {
+            background-color: #008F8C;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #023535;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .contenedor {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .contenedorFooter {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .informacionDiv {
+            width: calc(33.33% - 20px);
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #ccc;
+        }
+
+        hr {
+            border-color: #555;
+        }
+
+        .button,
+        button {
+            padding: 10px;
+            margin: 5px;
+            display: block;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #0CABA8;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #015958;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Dispositivos IoT</h1>
+        <nav>
+            <button class="button"><a href="https://www.youtube.com/watch?v=lbE7WsuK9rI" target="_blank">Video
+                    introductorio IoT</a></button>
+            <button class="button"><a href="https://www.youtube.com/watch?v=wD3pKZQiWOM" target="_blank">Tecnologias
+                    IoT</a></button>
+            <button class="button"><a href="https://www.youtube.com/watch?v=sFQEGiBTVxo" target="_blank">Rastreo y
+                    privacidad</a></button>
+            <button class="button"><a href="https://www.youtube.com/watch?v=ra6kNSIB1uA" target="_blank">Curso Raspberry
+                    Pi 3</a></button>
+        </nav>
+    </header>
+
+    <div style="display: flex;">
+        <section id="seccion1" style="flex: 50%;">
+            <article>
+                <h2>Introduccion al nternet de las cosas (IoT)</h2>
+                <a href="https://significadosweb.com/concepto-de-internet-of-things-iot-que-es-definicion-significado-y-ejemplos/"
+                    class="button" target="_blank">Introducción a la Internet de las cosas (IoT)</a>
+                <a href="https://www.redhat.com/es/topics/internet-of-things/what-is-iot" class="button"
+                    target="_blank">¿Qué es
+                    IoT?</a>
+                <a href="https://www.telefonica.com/es/sala-comunicacion/blog/impacto-y-aplicaciones-del-iot-en-industria-4-0-y-sector-productivo/"
+                    class="button" target="_blank">Impacto y aplicaciones del IoT en Industria 4.0 y sector
+                    productivo</a>
+                <a href="https://bisite.usal.es/es/blog/formaci-n/22/08/17/aplicaci-n-e-importancia-de-la-iot-en-la-actualidad-bisite"
+                    class="button" target="_blank">Aplicación e importancia de la IoT en la actualidad</a>
+                <a href="https://www.fracttal.com/es/blog/9-aplicaciones-importantes-iot" class="button"
+                    target="_blank">9 aplicaciones
+                    importantes de IoT</a>
+                <a href="https://www.unir.net/ingenieria/revista/iot-industrial/" class="button" target="_blank">IoT
+                    industrial</a>
+                <a href="https://www.bbvaopenmind.com/tecnologia/mundo-digital/tendencias-iot-2023/" class="button"
+                    target="_blank">Tendencias
+                    IoT 2023</a>
+            </article>
+        </section>
+
+        <aside style="flex: 50%;">
+            <h2>Casos de Uso de Dispositivos IoT</h2>
+            <a href="https://tecnosinergia.zendesk.com/hc/es/articles/115000197652--Qu%C3%A9-es-la-automatizaci%C3%B3n-del-hogar-y-que-beneficios-tiene-Dom%C3%B3tica"
+                class="button" target="_blank">¿Que es la automatizacion?</a>
+            <a href="https://www.simonelectric.com/blog/inspirate-con-estos-7-increibles-ejemplos-de-domotica-domestica"
+                class="button" target="_blank">Ejemplos de Domótica</a>
+            <a href="https://www.infoagro.com/documentos/la_agricultura_inteligente_mejorar_rendimiento_cultivos.asp"
+                class="button" target="_blank">Agricultura inteligente</a>
+            <a href="https://eos.com/es/blog/agricultura-inteligente/" class="button" target="_blank">Ejemplos de
+                proyectos en agricultura inteligente</a>
+            <a href="https://www.saludonnet.com/blog/influyen-los-dispositivos-inteligentes-de-salud-en-el-bienestar/"
+                class="button" target="_blank">Influencia de los dispositivos wearables en nuestra salud</a>
+            <a href="https://kaila.eu/es/blog/wearables-iot-y-salud-una-revolucion-en-tu-muneca/" class="button"
+                target="_blank">Tecnología Wearable</a>
+        </aside>
+    </div>
+
+    <div style="display: flex;">
+        <section id="seccion2" style="flex: 50%;">
+            <article>
+                <h2>Seguridad y Privacidad en Dispositivos IoT</h2>
+                <a href="https://www.fortinet.com/lat/resources/cyberglossary/iot-security" class="button"
+                    target="_blank">¿Que es la seguridad en IoT?</a>
+                <a href="https://www.uxcale.com/la-seguridad-en-la-era-de-iot-desafios-y-soluciones/" class="button"
+                    target="_blank">La seguridad en la era dorada de los IoT</a>
+                <a href="https://www.ninjaone.com/es/blog/proteger-los-dispositivos-iot/" class="button"
+                    target="_blank">Como proteger dispositivos IoT</a>
+                <a href="https://ayudaleyprotecciondatos.es/2021/06/09/proteccion-datos-internet-de-las-cosas/"
+                    class="button" target="_blank">Proteccion de datos con IoT</a>
+                <a href="https://www.kaspersky.es/resource-center/preemptive-safety/best-practices-for-iot-security"
+                    class="button" target="_blank">Buenas prácticas en seguridad IoT</a>
+                <a href="https://www.chakray.com/es/privacidad-iot-aspectos-a-tener-cuenta/" class="button"
+                    target="_blank">Aspectos a tener en cuenta - Privacidad IoT</a>
+            </article>
+        </section>
+
+        <aside style="flex: 50%;">
+            <h2></h2>
+            <a href="" class="button" target="_blank"></a>
+            <a href="" class="button" target="_blank"></a>
+            <a href="" class="button" target="_blank"></a>
+            <a href="" class="button" target="_blank"></a>
+            <a href="" class="button" target="_blank"></a>
+            <a href="" class="button" target="_blank"></a>
+            <a href="" class="button" target="_blank"></a>
+            <a href="" class="button" target="_blank"></a>
+            <a href="" class="button" target="_blank"></a>
+            <a href="" class="button" target="_blank"></a>
+            <a href="" class="button" target="_blank"></a>
+            <a href="" class="button" target="_blank"></a>
+            <a href="" class="button" target="_blank"></a>
+        </aside>
+    </div>
+    <footer>
+        <div class="contenedor">
+            <div class="contenedorFooter">
+                <div class="informacionDiv">
+                    <h4>Contacto</h4>
+                    <p>Email: equipoIoT@adaits.com</p>
+                    <p>Teléfono: 912837627</p>
+                </div>
+                <div class="informacionDiv">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="#">Normas de seguridad</a></li>
+                        <li><a href="#">Guía de especificaciones</a></li>
+                        <li><a href="#">Blog de IoT</a></li>
+                    </ul>
+                </div>
+                <div class="informacionDiv">
+                    <h4>Síguenos</h4>
+                    <ul>
+                        <li><a
+                                href="https://www.facebook.com/search/top/?q=dispositivos%20iot&locale=es_ES">Facebook</a>
+                        </li>
+                        <li><a href="https://twitter.com/search?q=dispositivos%20iot&src=typed_query">Twitter</a></li>
+                        <li><a
+                                href="https://www.linkedin.com/search/results/all/?keywords=dispositivos%20iot&origin=GLOBAL_SEARCH_HEADER&sid=2-k">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p>&copy; 2024 IoT Company. Todos los derechos reservados.</p>
+            <p><a href="https://protecciondatos-lopd.com/empresas/politica-de-privacidad-web/">Política de
+                    privacidad</a> | <a
+                    href="https://www.roberthalf.cl/terminos-y-condiciones-de-uso-de-sitio-web">Términos de uso</a></p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
